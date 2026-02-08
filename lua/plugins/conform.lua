@@ -20,7 +20,6 @@ return {
 			python = { "ruff" },
 			cpp = { "clang-format" },
 			rust = { "rustfmt" },
-			markdown = { "prettierd" },
 		},
 		-- Set default options
 		default_format_opts = {

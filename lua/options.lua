@@ -59,3 +59,6 @@ vim.diagnostic.config({
 	severity_sort = true,
 	signs = false,
 })
+
+--LSPs
+vim.lsp.set_log_level("error")

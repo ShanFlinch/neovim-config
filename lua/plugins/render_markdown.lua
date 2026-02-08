@@ -5,8 +5,9 @@ return {
 		render_modes = { "n", "c", "t" },
 		heading = {
 			position = "inline",
+			width = { "full", "full", "block" },
 			sign = false,
-			icons = { "  ", "  ", "  ", "  ", "  ", "  ", "  " },
+			icons = { "  ", " ", " ", " ", " ", " " },
 		},
 		bullet = { icons = { " ", " ", " ", " ", " ", " " } },
 		checkbox = {
@@ -29,6 +30,14 @@ return {
 				youtube = { pattern = "youtube[^.]*%.com", icon = "󰗃 " },
 				youtube_short = { pattern = "youtu%.be", icon = "󰗃 " },
 			},
+		},
+		indent = {
+			enabled = true,
+			icon = "",
+			per_level = 1,
+			skip_heading = false,
+			skip_level = 0,
+			highlight = "SnacksIndent",
 		},
 	},
 }
