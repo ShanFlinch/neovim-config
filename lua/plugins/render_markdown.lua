@@ -7,7 +7,7 @@ return {
 			position = "inline",
 			width = { "full", "full", "block" },
 			sign = false,
-			icons = { "  ", " ", " ", " ", " ", " " },
+			icons = { "  ", " ", " ", " ", "", "" },
 		},
 		bullet = { icons = { " ", " ", " ", " ", " ", " " } },
 		checkbox = {
